@@ -13,6 +13,10 @@ const missingLetters = (string) => {
   return console.log(missing || 'all there')
 }
 
+const missingLetters = (string) => {
+  // code here
+};
+
 missingLetters('abce') // 'd'
 missingLetters('abcdefhi') // 'g'
 missingLetters('abcdefghi') // 'all here'

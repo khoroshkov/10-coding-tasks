@@ -8,4 +8,6 @@ const longestWord = (sen) => {
   return console.log(sorted[0])
 }
 
+const longestWord = (sen) => {};
+
 longestWord("I'm trying to find longest word in this sentence") // sentence

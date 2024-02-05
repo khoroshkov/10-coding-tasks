@@ -35,3 +35,16 @@ const reverseString = (word) => {
 }
 
 console.log(reverseString('hello'))
+
+// recursive reverse string
+function reverse(str){
+ if(str === ''){
+    return "";
+  }
+  return reverse(str.substring(1)) + str.charAt(0);
+}
+
+function reverse2(str){
+	if(str.length <= 1) return str;
+	return reverse2(str.slice(1)) + str[0];
+}
